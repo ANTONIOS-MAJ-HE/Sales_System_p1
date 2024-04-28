@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	  <ApplicationIcon>Images\ImagesForBusiness\Logo-S_T-201901_270x180.ico</ApplicationIcon>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Images\back-image.jpg" />
+		<None Remove="Images\logo.png" />
+		<None Remove="Images\key-icon.png" />
+		<None Remove="Images\user-icon.png" />
+		<None Remove="Images\profile-picture.jpg" />
+		<None Remove="Images\dashboard-template.png" />		
+		<None Remove="Images\7114300_eye_laser_correction_icon.png" />
+		<None Remove="Images\ImagesForBusiness\Logo-ST-201901_300x100_2.png" />
+		<None Remove="Images\ImagesForBusiness\4829874_arrow_back_left_icon.png" />
+		<None Remove="Images\ImagesForBusiness\3688457_refresh_sync_map_reload_rotate_icon.png" />
+		<None Remove="Images\ImagesForBusiness\Logo-S_T-201901_270x180.ico" />
+		<None Remove="Images\ImagesForBusiness\Logo_STECH.jpg" />
+		<None Remove="Images\ImagesForBusiness\Logo-S.png" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\Presentation\Business.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Images\back-image.jpg" />
+		<Resource Include="Images\logo.png" />
+		<Resource Include="Images\key-icon.png" />
+		<Resource Include="Images\user-icon.png" />
+		<Resource Include="Images\profile-picture.jpg" />
+		<Resource Include="Images\dashboard-template.png" />
+		<Resource Include="Images\7114300_eye_laser_correction_icon.png" />
+		<Resource Include="Images\ImagesForBusiness\Logo-ST-201901_300x100_2.png" />
+		<Resource Include="Images\ImagesForBusiness\4829874_arrow_back_left_icon.png" />
+		<Resource Include="Images\ImagesForBusiness\3688457_refresh_sync_map_reload_rotate_icon.png" />
+		<Resource Include="Images\ImagesForBusiness\Logo-S_T-201901_270x180.ico" />
+		<Resource Include="Images\ImagesForBusiness\Logo_STECH.jpg" />
+		<Resource Include="Images\ImagesForBusiness\Logo-S.png" />
+	</ItemGroup>
+
+</Project>
